@@ -1,0 +1,24 @@
+{
+  "name": "emv-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.6.5",
+    "bignumber.js": "^9.1.2",
+    "dotenv": "^16.3.1",
+    "ethers": "5",
+    "handlebars": "^4.7.8",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  },
+  "bin": "node index.js"
+}
